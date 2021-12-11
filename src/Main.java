@@ -64,7 +64,7 @@ public class Main {
         System.out.println(sql);
         try {
             stmt.executeUpdate(sql);
-            c.commit();
+
             stmt.close();
             c.close();
         } catch (SQLException e) {
